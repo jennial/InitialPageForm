@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="page.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:wght@332&family=Sofia+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Korablik</title>
+  </head>
+  <body>
+    <header>
+       <img src="logo.png" alt="Logo" class="img-logo" />
+    </header>
+    <section class="image-first">
+      <h1 class="image-title">Este é um site Portifólio</h1>
+      <div class="image-pagraf">
+        <p>Gostou do conteúdo?</p>
+        <p>
+          Ele é pensado para demonstrar mais a estrutura interna e os elementos
+          que utilizo na construção.
+        </p>
+        <p>Mas posso criar um para você!</p>
+        <p>Vou disponibilizar um botão aqui em baixo para contato :)</p>
+        <button style="margin-top: 20px">Enviar uma proposta</button>
+      </div>
+    </section>
+
+    <section class="form-sf">
+      <div class="form-textos">
+        <h2 class="form-title">Cadastro de Lead</h2>
+        <div class="form-paragraf">
+          <p>Você pode se cadastrar com um Lead dentro do Salesforce</p>
+          <p>
+            É uma parte de integração que estou utilizando por uma API criada
+            por mim
+          </p>
+        </div>
+      </div>
+      <div>
+        <form id="leadForm">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+
+          <button type="submit">Cadastrar Lead</button>
+        </form>
+      </div>
+    </section>
+  </body>
+  <p></p>
+</html>
