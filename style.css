@@ -9,17 +9,13 @@
 nav{
 }
 header{
-    background-color:rgba(209, 222, 218, 0.933);
+    background-color:#f7b4a7;
     margin: 0;
     height: 60px;
 }
-.image-first{
-    background-image: url(oq.jpeg);
+.text-first{
     height: 450px;
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
  
     color: rgba(62, 63, 63, 0.671);
     display: flex;
@@ -28,11 +24,11 @@ header{
     text-align: center;
 }
 
-.image-title{
+.text-title{
     font-size: 60px;
     margin-bottom: 10px;
 }
-.image-pagraf{
+.text-pagraf{
     font-size: 20px;
 }
 
@@ -54,7 +50,7 @@ button:hover{
 }
 
 .form-sf{
-    background-color: #dbe7dc;
+    background-color: #efefef;
     display: flex;
     justify-content: space-around;
     padding: 100px;
@@ -80,4 +76,33 @@ input{
 
 .img-logo{
     width: 160px;
+}
+.img-apresentacao{
+    width: 100%;
+}
+
+.carrossel{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.item{
+    width: 200px;
+    height: 50px;
+}
+
+.item img{
+    width: 100%;
+}
+
+.carrousel-back{
+    background-image: url(/utils/floral.png);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 250px;
+    
 }
